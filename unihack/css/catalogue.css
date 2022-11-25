@@ -1,0 +1,53 @@
+.titlu{
+    font-size: 125px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(68, 44, 145);
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.box{
+    display: grid;
+   grid-template-columns: 3;
+
+}
+
+.parte{
+    border: 2px solid;
+    display: grid;
+    grid-template-columns: 3;
+    width: 350px;
+}
+
+.subj{
+    
+    display: flex;
+    align-content: center;
+    margin-left: 150px;
+}
+
+.fain{
+    display: flex;
+    align-content: space-between;
+    gap: 50%;
+    border: 2px solid;
+    -webkit-column-break-after: always;
+}
+
+.note1,.note2,.subj{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(68, 44, 145);
+}
+
+.note1{
+    margin-left:10px;
+    margin-right: 1px;
+    border-right: 1px;;
+}
+.note2{
+    margin-left:1px;
+    margin-right: 10px;
+    display: block;
+    border: 1px;
+}
