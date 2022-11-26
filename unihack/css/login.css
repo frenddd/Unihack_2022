@@ -4,13 +4,14 @@
 
 .patrat{
     border-radius: 7px 50px;
-    background: #8ed2c9;
+    background-color:  rgba(118, 118, 118, 0.426);
     padding: 35px;
     margin-top: 20px;
     margin-bottom: 5%;
     min-width: 500px;
     max-width: 520px;
     position: relative;
+    box-shadow: 10px 0px 60px;
     
 }
 
@@ -18,11 +19,10 @@
     
     font-size: 120px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-
+    transition: 0.5s;
     color: rgb(68, 44, 145);
-
-   
-    text-align:center;
+    text-align: justify;
+    margin-left: 55px;
 }
 
 .buton{
@@ -101,6 +101,10 @@ button:hover{
     transition: 0.3s;
     font-family: 'Nunito', sans-serif;
 }
-#error-msg-second-line {
-    display: block;
+
+#slideup{
+    position: relative;
+    left: -30px;
+    width: 300px;
+    animation: slide 0.5s forwards;
 }

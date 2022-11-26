@@ -4,21 +4,23 @@
 
 .chenar{
     border-radius: 7px 50px;
-    background: #8ed2c9;
+    background-color:  rgba(118, 118, 118, 0.426);
     padding: 35px;
-    
+
     margin-bottom: 5%;
     min-width: 500px;
     max-width: 520px;
     position: relative;
+    box-shadow: 10px 0px 60px;
 }
 
 .titlu{
-    font-size: 120px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 80px;
+    font-family: 'Caesar Dressing';
     color: rgb(68, 44, 145);
-    margin-top: 200px;
+    
     margin-bottom: 50px;
+    transition: 0.2s;
     
 }
 
@@ -69,7 +71,7 @@ button:hover{
 }
 
 a:link{
-    color: red;
+    color: rgb(85, 61, 142);
     font-size: 14pt;
     transition: 0.3s;
     text-decoration: none;
@@ -112,3 +114,13 @@ a:hover{
     transition: 0.3s;
     font-family: 'Nunito', sans-serif;
 }
+.combo{
+    padding:20px;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-size: 12pt;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-family: 'Nunito', sans-serif;
+    }
+    
