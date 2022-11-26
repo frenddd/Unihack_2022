@@ -1,73 +1,112 @@
+
+
 .titlu{
-    font-size: 125px;
     font-family: 'Nunito', sans-serif;
     color: rgb(68, 44, 145);
-    margin-top: 200px;
     margin-bottom: 50px;
-}
+    margin-left:11% ;
+    font-size:xxx-large;
+} 
+
 
 .box{
+    border: 2cm dashed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2PX;
     margin-left: 2%;
     margin-right: 2%;
-    display: grid;
-    grid-template-columns: 3;
-
+    gap: 3%;
+    margin-left:240px;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+    font-size:18px;
+  
 }
-
 .parte{
     border: 2px solid;
-    display: grid;
-    grid-template-columns: 3;
-}
+    width: 300px;
+    margin-bottom: 4%;
+    background-color:  rgba(118, 118, 118, 0.426); 
+    border-radius: 12px;
 
-.subj,.notes,.abs,.notes2{
-    font-size: 20px;
-    font-family: 'Nunito', sans-serif;
-    color: rgb(68, 44, 145);
-}
-
-.subj{
-    
-    display: block;
-    align-content: center;
-    padding-left:25%;
-    padding-right: 25%;
+}.fain,.mod{
     border: 2px solid;
+    
+    
+   
+}
+.subj,.note,.abs{
+    
+    border-bottom: 2px solid black;
 }
 
-.fain{
-    display: flex;
-    align-content: space-between;
-    
-    border: 2px solid;
-}
-
-.mod{
-    align-content: space-between;
-    
-    display: flex;
-    border: 2px solid;
-}
 
 .notes{
-    
-    border-right: 1px solid;
-    padding-left: 1%;
-    padding-right: 820px;
-
+    border-top: 2px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 
-.notes2{
-    padding-left:1%;
-    padding-right: 800px;
-    border-right:1px;
-}
-
-.abs{
+.note,.date{
    
-    border-left: 1px solid;
-    padding-right: 1%;
-    padding-left: 420px;
+    border-right:2px solid;
+}
+
+.date{
+    height: 300px;
     
 }
+
+body{
+    background-image: url("131311-green-polygon-background-design.jpg");
+    background-attachment: fixed;
+}
+
+.logo{
+  padding-left:2px;
+border-bottom: 2px solid black;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 190px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color:  rgba(118, 118, 118, 0.426); 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    padding-left: 12px;
+box-shadow: 10px 0px 60px;
+    
+  }
+  
+  .sidenav a {
+
+    padding: 6px 8px 6px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgba(67, 44, 144, 50);
+    display: flex;
+    transition: 900ms;
+  }
+  
+ 
+  .sidenav a:hover {
+    color: rgb(67, 44, 204);
+    
+  }
+
+.links{
+    text-align: center;
+    margin-right: 0%;
+    bottom: 5%;
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+} 

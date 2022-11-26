@@ -6,27 +6,30 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="css\createaccount.css">
     <!--<link rel="script" href="js\cont.js">-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
 </head>
 <body class="body">
     <!--Logoul si butonul de sign in/up-->
     <div class="head">
-        <div class="logo"><a href="index.html"><img src="\imagini\logo.png" width="100px"></a></div>
-        <div class="sign"><button class="buton2" onclick="window.location.href='login.html'">Sign In</button></div>
+        <div class="logo"><a href="index.html"><img src="\imagini\logo.png" width="130px"></a></div>
+        <div class="sign"></div>
     </div>
     <!--Cadranul de informatii-->
-    <center><div class="chenar">
+    <center>
     <span class="titlu">Create an account</span><br>
     <span class="text">Complete the fields below in order to create an account.</span><br><br>
-   
+   <div class="chenar" center>
     <div> <form name="form1" onsubmit="required()"><input class="box" type="text" placeholder="First name" name="firstname"></form></div>
     <!--js-ul lu meshter-->
-    <script type="text/javascript">
+   <script type="text/javascript">
         function required()
         {
         var empt = document.forms["form1"]["firstname"].value;
         if (empt == "")
         {
-        alert("Please input a Value");
+            alert('no')
         return false;
         }
         else 
@@ -39,14 +42,14 @@
                 location.href = "index.html";
         };
             </script>
-            
-    <div><input class="box" type="text" placeholder="Last name" name="lastname"></div>
-     <div><input class="box" type="text" placeholder="E-mail" name="email"></div>
+          
+    <div><input id="fnume" class="box" type="text" placeholder="Last name" name="lastname"></div>
+     <div><input id="nume" class="box" type="text" placeholder="E-mail" name="email"></div>
      <div><input class="box" type="password" placeholder="Password" name="password"></div>
      <div><input class="box" type="password" placeholder="Verify password" name="verpass"></div>
      <div><button id="myButton" class="buton">Create account</button></div>
     
-   
+        <script defer src="js\datecont.js"></script>
 
     <div>
         <span class="text2">Already have an account? <a href="login.html">Click here!</a></span>
