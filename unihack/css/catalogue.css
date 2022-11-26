@@ -7,8 +7,10 @@
 }
 
 .box{
+    margin-left: 2%;
+    margin-right: 2%;
     display: grid;
-   grid-template-columns: 3;
+    grid-template-columns: 3;
 
 }
 
@@ -16,38 +18,56 @@
     border: 2px solid;
     display: grid;
     grid-template-columns: 3;
-    width: 350px;
 }
 
-.subj{
-    
-    display: flex;
-    align-content: center;
-    margin-left: 150px;
-}
-
-.fain{
-    display: flex;
-    align-content: space-between;
-    gap: 50%;
-    border: 2px solid;
-    -webkit-column-break-after: always;
-}
-
-.note1,.note2,.subj{
+.subj,.notes,.abs,.notes2{
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
     color: rgb(68, 44, 145);
 }
 
-.note1{
-    margin-left:10px;
-    margin-right: 1px;
-    border-right: 1px;;
-}
-.note2{
-    margin-left:1px;
-    margin-right: 10px;
+.subj{
+    
     display: block;
-    border: 1px;
+    align-content: center;
+    padding-left:25%;
+    padding-right: 25%;
+    border: 2px solid;
+}
+
+.fain{
+    display: flex;
+    align-content: space-between;
+    
+    border: 2px solid;
+}
+
+.mod{
+    align-content: space-between;
+    
+    display: flex;
+    border: 2px solid;
+}
+
+.notes{
+    
+    border-right: 1px solid;
+    padding-left: 1%;
+    padding-right: 820px;
+
+}
+
+
+.notes2{
+    padding-left:1%;
+    padding-right: 800px;
+    border-right:1px;
+}
+
+.abs{
+   
+    border-left: 1px solid;
+    padding-right: 1%;
+    padding-left: 420px;
+    
 }

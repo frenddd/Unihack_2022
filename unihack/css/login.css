@@ -1,3 +1,17 @@
+.body{
+    background-image: url("131311-green-polygon-background-design.jpg");
+}
+
+.patrat{
+    border-radius: 7px 50px;
+    background: #8ed2c9;
+    padding: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%; 
+}
+
 .login{
     
     font-size: 120px;
@@ -12,15 +26,15 @@
 .buton{
     background-color: #4CAF50;   
     width: 500px;  
-     color: black;   
-     padding: 20px;   
-     margin: 10px 10px;   
-     border: none;   
-     cursor: pointer;
-     font-size: 12pt;
-     border-radius: 12px;
-     transition: 0.3s;
-     font-family: 'Nunito', sans-serif; 
+    color: black;   
+    padding: 20px;   
+    margin: 10px 10px;   
+    border: none;   
+    cursor: pointer;
+    font-size: 12pt;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-family: 'Nunito', sans-serif; 
 }
 .input{
     margin-bottom: 20px;
@@ -51,5 +65,37 @@ button:hover{
 }
 .already{
     font-size: 14pt;
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 3px 0px 5px black;
+}
+
+.head{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    margin-top:1%;
+    margin-left:1%;
+    margin-right: 90%;
+}
+
+.sign{
+    margin-right: 1%;
+    display: flex;
+    margin-top:1%;
+    
+}
+
+.buton2{
+    background-color: #4CAF50;   
+    color: black;   
+    padding: 20px;   
+    margin: 10px 10px;   
+    border: none;   
+    cursor: pointer;
+    font-size: 12pt;
+    border-radius: 12px;
+    transition: 0.3s;
     font-family: 'Nunito', sans-serif;
 }

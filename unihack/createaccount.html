@@ -1,28 +1,56 @@
 <!DOCTYPE html>
-
-<html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Un1Cl4ss: Create account</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="css\createaccount.css">
+    <!--<link rel="script" href="js\cont.js">-->
 </head>
-<body class="body"><center>
+<body class="body">
+    <!--Logoul si butonul de sign in/up-->
+    <div class="head">
+        <div class="logo"><a href="index.html"><img src="\imagini\logo.png" width="100px"></a></div>
+        <div class="sign"><button class="buton2" onclick="window.location.href='login.html'">Sign In</button></div>
+    </div>
+    <!--Cadranul de informatii-->
+    <center><div class="chenar">
     <span class="titlu">Create an account</span><br>
     <span class="text">Complete the fields below in order to create an account.</span><br><br>
-    <div><input class="box" type="text" placeholder="First name"></div>
-    <div><input class="box" type="text" placeholder="Last name"></div>
-    <div><input class="box" type="text" placeholder="E-mail"></div>
-    <div><input class="box" type="password" placeholder="Password"></div>
-    <div><input class="box" type="password" placeholder="Verify password"></div>
-
-    <div><button class="buton">Create account</button></div>
+   
+    <div> <form name="form1" onsubmit="required()"><input class="box" type="text" placeholder="First name" name="firstname"></form></div>
+    <!--js-ul lu meshter-->
+    <script type="text/javascript">
+        function required()
+        {
+        var empt = document.forms["form1"]["firstname"].value;
+        if (empt == "")
+        {
+        alert("Please input a Value");
+        return false;
+        }
+        else 
+        {
+        alert('Code has accepted : you can try another');
+        return true; 
+        }}
+        if(empt=="")
+        document.getElementById("myButton").onclick = function () {
+                location.href = "index.html";
+        };
+            </script>
+            
+    <div><input class="box" type="text" placeholder="Last name" name="lastname"></div>
+     <div><input class="box" type="text" placeholder="E-mail" name="email"></div>
+     <div><input class="box" type="password" placeholder="Password" name="password"></div>
+     <div><input class="box" type="password" placeholder="Verify password" name="verpass"></div>
+     <div><button id="myButton" class="buton">Create account</button></div>
+    
+   
 
     <div>
         <span class="text2">Already have an account? <a href="login.html">Click here!</a></span>
-    </div>
+    </div></div>
 </center>
 </body>
 </html>
