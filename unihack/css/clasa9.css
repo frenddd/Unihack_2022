@@ -1,7 +1,7 @@
 .body{
     
         background-image: url("131311-green-polygon-background-design.jpg");
-    
+        background-attachment: fixed;
   }
 
   #basic {

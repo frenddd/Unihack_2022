@@ -1,5 +1,6 @@
 .body{
     background-image: url("131311-green-polygon-background-design.jpg");
+    background-attachment: fixed;
 }
 
 .patrat{
@@ -18,7 +19,7 @@
 .login{
     
     font-size: 120px;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Caesar Dressing';
     transition: 0.5s;
     color: rgb(68, 44, 145);
     text-align: justify;
