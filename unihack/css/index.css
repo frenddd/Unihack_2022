@@ -38,6 +38,12 @@
     background-color: #40dccf;
   
 }
+
+.joinclass:hover{
+  transition: 0.4s;
+  background-color: #25857d;
+}
+
 body{
   background-image: url("131311-green-polygon-background-design.jpg");
   background-attachment: fixed;
